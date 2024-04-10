@@ -45,8 +45,38 @@ figure, header, nav, section, article, aside, footer, figcaption {
 .card{
   margin: 60px;
   align-items: center;
+  border-radius: 405px;
+  text-align: center;
+  padding: 10px;
+  overflow: hidden;
+  position: relative;
 }
-#container{
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px;
+  height: 160px;
+  box-sizing: border-box;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-text {
+  transform: translateY(0);
+}
+
+#container {
   margin-left: 50px;
 }
 .clearfix:after {
@@ -243,7 +273,7 @@ header
 */
 
 .background-header {
-  background-color: #fff;
+  background-color: #6B467A;
   height: 80px!important;
   position: fixed!important;
   top: 0px;
@@ -303,7 +333,7 @@ header
   margin-top: 27px;
   margin-left: 15%;
   margin-right: 0px;
-  background-color: #fff;
+  background-color: #6B467A;
   padding: 0px 20px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -326,7 +356,7 @@ header
   display: block;
   font-weight: 500;
   font-size: 13px;
-  color: #7a7a7a;
+  color: #ffffff;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -378,7 +408,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a {
   display: block;
-  background: #fff;
+  background: #6B467A;
   color: #7a7a7a!important;
   padding-left: 20px;
   height: 40px;
@@ -408,7 +438,7 @@ header
 }
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
-  background: #fff;
+  background: #6B467A;
   color: #1e1e1e!important;
   padding-left: 25px;
 }
@@ -562,9 +592,10 @@ header
   .logo {
     text-align: center;
     float: none!important;
+    
   }
   .header-area {
-    background-color: #f7f7f7;
+    background-color: #6B467A;
     padding: 0px 15px;
     height: 80px;
     box-shadow: none;
@@ -594,11 +625,11 @@ header
     margin-left: 0px;
   }
   .header-area .main-nav .nav li:first-child {
-    border-top: 1px solid #eee;
+    border-top: 1px solid #6B467A;
   }
   .header-area .main-nav .nav li {
     width: 100%;
-    background: #fff;
+    background: #6B467A;
     border-bottom: 1px solid #eee;
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -608,7 +639,7 @@ header
     line-height: 50px !important;
     padding: 0px !important;
     border: none !important;
-    background: #f7f7f7 !important;
+    background: #6B467A  !important;
     color: #191a20 !important;
   }
   .header-area .main-nav .nav li a:hover {
