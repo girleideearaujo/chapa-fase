@@ -42,6 +42,9 @@ figure, header, nav, section, article, aside, footer, figcaption {
   outline: 0;
 }
 
+#promotion{
+  background-image: linear-gradient(145deg, #6B467A 0%, #ffffff 100%);;
+}
 .card{
   margin: 60px;
   align-items: center;
@@ -50,6 +53,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
   padding: 10px;
   overflow: hidden;
   position: relative;
+  padding: 35px;
 }
 
 .card img {
@@ -196,7 +200,7 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #f1556a;
+  background-color: #6B467A;
 }
 
 a.main-button {
@@ -273,7 +277,7 @@ header
 */
 
 .background-header {
-  background-color: #6B467A;
+  background-image: linear-gradient(145deg, #6B467A 0%, #F9E25C 100%);;
   height: 80px!important;
   position: fixed!important;
   top: 0px;
@@ -284,7 +288,7 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #1e1e1e!important;
+  color: #ffffff!important;
 }
 
 .background-header .main-nav .nav li:hover a {
@@ -1196,7 +1200,7 @@ preloader
 */
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(145deg, #f4813f 0%, #f1556a 100%);
+  background-image: linear-gradient(145deg, #6B467A 0%, #F9E25C 100%);
   left: 0;
   right: 0;
   top: 0;
